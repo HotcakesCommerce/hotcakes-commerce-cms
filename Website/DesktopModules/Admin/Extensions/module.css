@@ -1,0 +1,124 @@
+/* ===========   Extensions Module Styling   =========== */
+#dnnExtensions {
+    min-width: 640px;
+}
+.dnnEditExtension, .dnnInstallExtension, .dnnUnInstallExtension, .dnnEditDefinition, .dnnForm.dnnEditModuleControl {
+    width: 96%;
+    margin: 2em auto;
+}
+.dnnLoading{opacity: 0.7;}
+.dnnEditExtension .dnnFormItem input[type="text"], .dnnEditExtension .dnnFormItem textarea, .dnnCreateExtension .dnnFormItem input[type="text"], .dnnEditDefinition .dnnFormItem input[type="text"], .dnnEditDefinition .dnnFormItem textarea, .dnnEditModuleControl .dnnFormItem input[type="text"] {
+    /*min-width: 35%;*/
+}
+.dnnExtensionsPackageWriter .dnnFormItem input[type="text"] {
+    margin-right: 15px;
+    min-width: 35%;
+}
+.dnnExtensionsPackageWriter .dnnFormItem.extPWMiltiLine textarea {
+    width: 60%;
+    margin-left: 26%;
+}
+.dnnDeployExtension .dnnFormItem > span, .dnnInstallExtension .dnnFormItem > span, .dnnUnInstallExtension .dnnFormItem span {
+    display: inline-block;
+}
+.dnnDeployExtension .dnnFormItem > span, .dnnInstallExtension .dnnFormItem > span {
+    width: 50%;
+}
+.dnnInstallExtension .dnnFormItem > span.dnnFormLabel {
+    width: auto;
+}
+.dnnEditDefinition .dnnFormInput.dnnSSRadioButtons label {
+    width: 125px;
+    display: inline;
+}
+.dnnAuthenticationSettings .dnnFormItem label {
+    width: 100%;
+}
+#dnnExtensions .dnnGridHeader td, #dnnExtensions .dnnGridHeader th {
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    background: #f0f2f1;
+    background: -moz-linear-gradient(top, #fff 0%, #f0f2f1 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#f0f2f1)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fff 0%,#f0f2f1 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(top, #fff 0%,#f0f2f1 100%); /* W3C */
+}
+#dnnExtensions .dnnGrid td, #dnnExtensions .dnnGrid th {
+    padding: 14px 10px;
+}
+.dnnEditDefinition .dnnFormRadioButtons {
+    min-width: 35%;
+}
+.dnnInstallLogs {
+    height: 350px;
+    overflow: auto;
+}
+
+.dnnEditExtension .dnnForm .dnnFormItem > span {
+    width: 40%;
+    display: inline-block;
+}
+.dnnEditExtension .dnnForm .dnnFormItem > span.dnnCheckbox {
+	width: auto;
+}
+
+/* ===========   Extensions Module Styling   =========== */
+
+/* clean some form style */
+.RadComboBox_Default + a.dnnSecondaryAction {
+    position: absolute;
+    top: 0;
+}
+
+
+span.CommandButton input[type="image"]{
+    display: none;
+}
+
+span.CommandButton{
+    border: none;
+}
+
+a.CommandButton{
+    background: whiteSmoke;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,whiteSmoke), color-stop(100%,#DFDFDF));
+    -webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.4), inset 0px 1px 0px 0px rgba(255, 255, 255, 1);
+    text-shadow: 0px 1px 0px white;
+    color: #555;
+    display: inline-block;
+    padding: 9px 9px;
+    cursor: pointer;
+    border: 1px solid #C2C2C2;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dnnCreateExtension .dnnForm {
+    margin-top: 18px;
+}
+
+.dnnFixedSizeComboBox{
+    width: 200px !important;
+    margin-right: 10px;
+}
+
+/* remove td left/right border */
+tr.dnnGridItem td, tr.dnnGridAltItem td{
+    border-right: none;
+}
+#dnnExtensions table.dnnGrid, #dnnExtensions table.dnnGrid * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.spnUpgradeImage, .spnUpgradeImage a, .spnUpgradeImage a img {
+    display: none;
+    visibility: hidden;
+}
