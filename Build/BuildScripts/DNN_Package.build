@@ -30,6 +30,7 @@
     <InstallExclude Include="$(WebsitePath)\release.config"/>
     <InstallExclude Include="$(WebsitePath)\DotNetNuke.vstemplate"/>
     <InstallExclude Include="$(WebsitePath)\dotnetnuke.webproj"/>
+    <InstallExclude Include="$(WebsitePath)\DotNetNuke.Website.csproj"/>
     <InstallExclude Include="$(WebsitePath)\*.user"/>
 
     <InstallExclude Include="$(WebsitePath)\Install\Module\DNNXE*"/>
@@ -42,7 +43,7 @@
     <InstallExclude Include="$(WebsitePath)\Install\Provider\FiftyOnePremiumProvider_*_Install.zip" />
     <InstallExclude Include="$(WebsitePath)\Install\AuthSystem\DNNPro*"/>
     <InstallExclude Include="$(WebsitePath)\**\*.cs" Exclude="$(WebsitePath)\Install\InstallWizard.aspx.cs;$(WebsitePath)\Install\InstallWizard.aspx.designer.cs;" />
-    <InstallExclude Include="$(WebsitePath)\bin\**\*.*"/>
+    <InstallExclude Include="$(WebsitePath)\bin\**\*.*" Exclude="$(WebsitePath)\bin\DotNetNuke.Website.dll.config" />
   </ItemGroup>
 
   <ItemGroup>
