@@ -126,11 +126,12 @@ namespace DotNetNuke.Application
         /// Gets the name of the application
         /// </summary>
         /// <value>Fixed result: HCC</value>
+        /// <remarks>This will also end up being a prefix in the ID for all server controls rendered upon the page (e.g., hcc_originalname)</remarks>
         public virtual string Name
         {
             get
             {
-                return "HCC";
+                return "DNN";
             }
         }
 
