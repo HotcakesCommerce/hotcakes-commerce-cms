@@ -933,7 +933,7 @@ namespace DotNetNuke.UI.Skins
             page.PortalSettings.ActiveTab.SkinPath = SkinController.FormatSkinPath(skinSource);
 
             //set skin id to an explicit short name to reduce page payload and make it standards compliant
-            skin.ID = "hcc";
+            skin.ID = "dnn";
 
             return skin;
         }
