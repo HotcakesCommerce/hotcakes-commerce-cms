@@ -3589,6 +3589,8 @@
     <Content Include="images\yellow-warning.gif" />
     <Content Include="images\yellow-warning_16px.gif" />
     <Content Include="compilerconfig.json" />
+    <Content Include="DesktopModules\Hotcakes\Core\Install\02.00.00.config" />
+    <Content Include="DesktopModules\Hotcakes\Core\Install\03.00.00.config" />
     <None Include="Install\App_LocalResources\Locales.xml" />
     <Content Include="Install\AuthSystem\PlaceHolder.txt" />
     <Content Include="Install\Cleanup\PlaceHolder.txt" />
