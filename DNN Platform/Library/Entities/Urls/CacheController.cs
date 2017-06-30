@@ -18,24 +18,6 @@
 // THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
 // CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
 // DEALINGS IN THE SOFTWARE.
-// 
-// Hotcakes Commerce - https://hotcakes.org
-// Copyright (c) 2017
-// by Hotcakes Commerce, LLC
-// 
-// Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
-// documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
-// the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
-// to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-// 
-// The above copyright notice and this permission notice shall be included in all copies or substantial portions 
-// of the Software.
-// 
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
-// TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
-// THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
-// CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
-// DEALINGS IN THE SOFTWARE.
 
 #endregion
 
@@ -97,7 +79,7 @@ namespace DotNetNuke.Entities.Urls
 
         private static CacheDependency GetPortalsCacheDependency()
         {
-            var keys = new List<string> {"HCC_PortalDictionary"};
+            var keys = new List<string> {"DNN_PortalDictionary"};
             var portalsDepedency = new CacheDependency(null, keys.ToArray());
             return portalsDepedency;
         }
@@ -109,7 +91,7 @@ namespace DotNetNuke.Entities.Urls
             {
                 const string cacheKey = DataCache.TabCacheKey;
                 string key = string.Format(cacheKey, portalId);
-                key = "HCC_" + key; //add on the HCC_ prefix
+                key = "DNN_" + key; //add on the DNN_ prefix
                 keys.Add(key);
             }
             //get the portals list dependency
@@ -904,7 +886,7 @@ namespace DotNetNuke.Entities.Urls
                 List<string> portalCounts = null;
                 switch (k)
                 {
-                    case "HCC_" + PageIndexKey:
+                    case "DNN_" + PageIndexKey:
                         itemName = "Page Index";
                         //user profile actions
                         try
@@ -926,7 +908,7 @@ namespace DotNetNuke.Entities.Urls
                         }
 
                         break;
-                    case "HCC_"  + UrlDictKey:
+                    case "DNN_"  + UrlDictKey:
                         itemName = "Friendly Url List";
                         if (v != null &&
                             v.GetType() == typeof(SharedDictionary<int, SharedDictionary<string, string>>))

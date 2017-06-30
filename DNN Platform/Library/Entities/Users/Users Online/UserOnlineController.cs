@@ -155,7 +155,7 @@ namespace DotNetNuke.Entities.Users
         /// -----------------------------------------------------------------------------
         private void TrackAnonymousUser(HttpContext context)
         {
-            string cookieName = "HotcakesAnonymous";
+            string cookieName = "DotNetNukeAnonymous";
             var portalSettings = (PortalSettings) context.Items["PortalSettings"];
             if (portalSettings == null)
             {

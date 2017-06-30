@@ -91,7 +91,7 @@ namespace DotNetNuke.Tests.Data
 
         [Test]
         [TestCase("")]
-        [TestCase("hcc_")]
+        [TestCase("dnn_")]
         public void DataProvider_ObjectQualifier_Property_Is_Valid(string objectQualifier)
         {
             //Arrange

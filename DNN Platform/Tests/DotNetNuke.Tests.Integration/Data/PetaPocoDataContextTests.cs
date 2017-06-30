@@ -74,7 +74,7 @@ namespace DotNetNuke.Tests.Data
         #endregion
 
         private const string connectionStringName = "PetaPoco";
-        private const string tablePrefix = "hcc_";
+        private const string tablePrefix = "dnn_";
 
         #region Constructor Tests
 

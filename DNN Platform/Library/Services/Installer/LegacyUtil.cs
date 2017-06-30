@@ -257,7 +257,15 @@ namespace DotNetNuke.Services.Installer
                 }
             }
             // TODO: Verify the update in the if statement below
-            if (package.Owner == "DotNetNuke" || package.Owner == "DNN" || package.Owner == "Hotcakes" || package.Owner == "HCC")
+            if (package.Owner == "DotNetNuke" || package.Owner == "DNN")
+            {
+                package.License = Localization.Localization.GetString("License", Localization.Localization.GlobalResourceFile);
+                package.Organization = "DNN Corp.";
+                package.Url = "http://www.dnnsoftware.com";
+                package.Email = "support@dnnsoftware.com";
+                package.ReleaseNotes = "There are no release notes for this version.";
+            }
+            else if (package.Owner == "Hotcakes" || package.Owner == "HCC")
             {
                 package.License = Localization.Localization.GetString("License", Localization.Localization.GlobalResourceFile);
                 package.Organization = "Hotcakes Commerce, LLC";

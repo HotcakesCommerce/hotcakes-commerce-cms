@@ -2152,6 +2152,7 @@
     <Content Include="App_Data\PlaceHolder.txt" />
     <Content Include="App_GlobalResources\TimeZones.xml" />
     <Content Include="Components\ResourceInstaller\template.dnn.txt" />
+    <Content Include="Config\PlaceHolder.txt" />
     <Content Include="controls\address.ascx" />
     <Content Include="controls\DnnUrlControl.ascx" />
     <Content Include="controls\duallistcontrol.ascx" />
@@ -2297,6 +2298,7 @@
     <Content Include="Documentation\StarterKit\WebServerConfig.html" />
     <Content Include="Documentation\StarterKit\Welcome.html" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Icons\Sigma\About_16x16_Standard.png" />
     <Content Include="Icons\Sigma\About_32x32_Standard.png" />
@@ -3593,6 +3595,33 @@
     <Content Include="DesktopModules\Hotcakes\Core\Install\03.00.00.config" />
     <None Include="Install\App_LocalResources\Locales.xml" />
     <Content Include="Install\AuthSystem\PlaceHolder.txt" />
+    <Content Include="Install\Cleanup\03.00.08.txt" />
+    <Content Include="Install\Cleanup\03.00.12.txt" />
+    <Content Include="Install\Cleanup\03.01.00.txt" />
+    <Content Include="Install\Cleanup\03.02.00.txt" />
+    <Content Include="Install\Cleanup\03.02.01.txt" />
+    <Content Include="Install\Cleanup\03.03.00.txt" />
+    <Content Include="Install\Cleanup\04.03.03.txt" />
+    <Content Include="Install\Cleanup\04.05.00.txt" />
+    <Content Include="Install\Cleanup\04.05.01.txt" />
+    <Content Include="Install\Cleanup\04.06.00.txt" />
+    <Content Include="Install\Cleanup\04.07.00.txt" />
+    <Content Include="Install\Cleanup\04.08.00.txt" />
+    <Content Include="Install\Cleanup\04.08.01.txt" />
+    <Content Include="Install\Cleanup\04.08.02.txt" />
+    <Content Include="Install\Cleanup\04.09.00.txt" />
+    <Content Include="Install\Cleanup\05.00.00.txt" />
+    <Content Include="Install\Cleanup\05.00.01.txt" />
+    <Content Include="Install\Cleanup\05.01.00.txt" />
+    <Content Include="Install\Cleanup\05.03.00.txt" />
+    <Content Include="Install\Cleanup\05.06.00.txt" />
+    <Content Include="Install\Cleanup\06.00.00.txt" />
+    <Content Include="Install\Cleanup\07.00.00.txt" />
+    <Content Include="Install\Cleanup\07.00.01.txt" />
+    <Content Include="Install\Cleanup\07.02.01.txt" />
+    <Content Include="Install\Cleanup\07.03.01.txt" />
+    <Content Include="Install\Cleanup\07.04.01.txt" />
+    <Content Include="Install\Cleanup\07.04.02.txt" />
     <Content Include="Install\Cleanup\PlaceHolder.txt" />
     <Content Include="Install\Config\PlaceHolder.txt" />
     <Content Include="Install\Container\PlaceHolder.txt" />
@@ -3923,9 +3952,19 @@
     <Content Include="Providers\DataProviders\SqlDataProvider\InstallProfile.sql" />
     <Content Include="Providers\DataProviders\SqlDataProvider\InstallRoles.sql" />
     <Content Include="Providers\LoggingProviders\XMLLoggingProvider\Log.xslt" />
+    <Content Include="Providers\NavigationProviders\DNNMenuNavigationProvider\license.txt" />
+    <Content Include="Providers\NavigationProviders\DNNMenuNavigationProvider\releaseNotes.txt" />
+    <Content Include="Resources\ContentRotator\scripts\contentrotator.js" />
+    <Content Include="Resources\ContentRotator\themes\simple\loading.gif" />
+    <Content Include="Resources\ContentRotator\themes\simple\simple.css" />
     <Content Include="Resources\ControlPanel\ControlPanel.debug.js" />
     <Content Include="Resources\ControlPanel\ControlPanel.js" />
     <Content Include="Resources\Dashboard\jquery.dashboard.js" />
+    <Content Include="Resources\Libraries\jQuery-Migrate\01_02_01\jquery-migrate.js" />
+    <Content Include="Resources\Libraries\jQuery-UI\01_10_03\jquery-ui.js" />
+    <Content Include="Resources\Libraries\jQuery\01_09_01\jquery.js" />
+    <Content Include="Resources\Libraries\Knockout.Mapping\02_04_01\knockout.mapping.js" />
+    <Content Include="Resources\Libraries\Knockout\03_01_00\knockout.js" />
     <Content Include="Resources\Search\Search.js" />
     <Content Include="Resources\Search\SearchSkinObjectPreview.css" />
     <Content Include="Resources\Search\SearchSkinObjectPreview.js" />
@@ -4000,6 +4039,50 @@
     <Content Include="Resources\Shared\stylesheets\dnn.searchBox.css" />
     <Content Include="Resources\Shared\stylesheets\yui\base-min.css" />
     <Content Include="Resources\Shared\stylesheets\yui\reset-fonts-grids.css" />
+    <Content Include="Resources\TabStrip\scripts\tabstrip.js" />
+    <Content Include="Resources\TabStrip\themes\graphite\filler.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\graphite.css" />
+    <Content Include="Resources\TabStrip\themes\graphite\leftNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\leftSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\middleNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\middleSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\rightNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\rightNormalNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\rightNormalSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\rightSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\graphite\rightSelectedNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\filler.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\leftNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\leftSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\middleNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\middleSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\platinum.css" />
+    <Content Include="Resources\TabStrip\themes\platinum\rightNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\rightNormalNormal.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\rightNormalSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\rightSelected.gif" />
+    <Content Include="Resources\TabStrip\themes\platinum\rightSelectedNormal.gif" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidget.js" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\Disqus\disqus.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\Flash\flash.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\Flash\swfobject.js" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\Flickr\flickr.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\GoogleAnalytics\googleanalytics.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\WidgetBox\widgetbox.flash.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\EmbedWidgetResources\YouTube\youtube.snippet.htm" />
+    <Content Include="Resources\Widgets\DNN\PaneCollapseWidget.js" />
+    <Content Include="Resources\Widgets\DNN\PngTransparencyWidget.js" />
+    <Content Include="Resources\Widgets\DNN\RelocationWidget.js" />
+    <Content Include="Resources\Widgets\DNN\RotatorWidget.js" />
+    <Content Include="Resources\Widgets\DNN\StyleScrubberWidget.js" />
+    <Content Include="Resources\Widgets\DNN\StyleSheetWidget.js" />
+    <Content Include="Resources\Widgets\DNN\VisibilityWidget.js" />
+    <Content Include="Resources\Widgets\User\YourCompany\EmbedWidgetResources\Sample\sample.snippet.htm" />
+    <Content Include="Resources\Widgets\User\YourCompany\EmbedWidgetResources\Sample\sample.styled.snippet.htm" />
+    <Content Include="Resources\Widgets\User\YourCompany\license.txt" />
+    <Content Include="Resources\Widgets\User\YourCompany\releaseNotes.txt" />
+    <Content Include="Resources\Widgets\User\YourCompany\YourCompany.Widgets.SampleWidget.js" />
+    <Content Include="Robots.txt" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\ControlPanel\App_LocalResources\AddModule.ascx.resx">
@@ -4215,6 +4298,12 @@
     <None Include="Components\ResourceInstaller\ModuleDef_V3.xsd">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Config\DotNetNuke.config" />
+    <None Include="Config\DotNetNuke.log4net.config" />
+    <None Include="Config\InstallLog.Config" />
+    <None Include="Config\SiteAnalytics.config" />
+    <None Include="Config\SiteUrls.config" />
+    <None Include="Config\SolutionsExplorer.opml.config" />
     <None Include="controls\CountryListBox\Data\GeoIP.dat" />
     <None Include="DesktopModules\Admin\Portals\portal.template.xsd">
       <SubType>Designer</SubType>
@@ -4227,7 +4316,7 @@
     </None>
     <None Include="Documentation\TELERIK_EULA.pdf" />
     <None Include="Install\Template\UserProfile.page.template" />
-    <Content Include="jquery.min.map" />
+    <None Include="jquery.min.map" />
     <None Include="js\ClientAPICaps.config" />
     <None Include="js\Debug\ClientAPICaps.config" />
     <None Include="Licenses\Telerik RadControls for ASP.NET AJAX %28Custom%29.pdf" />
@@ -4392,10 +4481,12 @@
     <None Include="release.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Resources\Libraries\jQuery\01_09_01\jquery.min.map" />
     <None Include="Resources\Shared\scripts\jquery\jquery.min.map" />
+    <None Include="Resources\Widgets\User\YourCompany\SampleWidget.dnn" />
+    <None Include="Resources\Widgets\User\YourCompany\SampleWidget.zip" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Config\" />
     <Folder Include="Install\Provider\" />
     <Folder Include="Install\Temp\" />
     <Folder Include="Portals\_default\MergedTemplate\" />

@@ -84,7 +84,7 @@ namespace DotNetNuke.Services.Cache
 		private static readonly ILog Logger = LoggerSource.Instance.GetLogger(typeof(CachingProvider));
 
         private static System.Web.Caching.Cache _cache;
-        private const string CachePrefix = "HCC_";
+        private const string CachePrefix = "DNN_";
 		
 		#endregion
 
