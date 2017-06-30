@@ -30,6 +30,8 @@
     <InstallExclude Include="$(WebsitePath)\release.config"/>
     <InstallExclude Include="$(WebsitePath)\DotNetNuke.vstemplate"/>
     <InstallExclude Include="$(WebsitePath)\dotnetnuke.webproj"/>
+    <InstallExclude Include="$(WebsitePath)\DotNetNuke.Website.csproj"/>
+    <InstallExclude Include="$(WebsitePath)\*.user"/>
 
     <InstallExclude Include="$(WebsitePath)\Install\Module\DNNXE*"/>
     <InstallExclude Include="$(WebsitePath)\Install\Module\DNNPro*"/>
@@ -40,8 +42,8 @@
     <InstallExclude Include="$(WebsitePath)\Install\Provider\RadEditorProvider_06.01.02_Install.resources" />
     <InstallExclude Include="$(WebsitePath)\Install\Provider\FiftyOnePremiumProvider_*_Install.zip" />
     <InstallExclude Include="$(WebsitePath)\Install\AuthSystem\DNNPro*"/>
-    <InstallExclude Include="$(WebsitePath)\**\*.cs" />
-    <InstallExclude Include="$(WebsitePath)\bin\**\*.*"/>
+    <InstallExclude Include="$(WebsitePath)\**\*.cs" Exclude="$(WebsitePath)\Install\InstallWizard.aspx.cs;$(WebsitePath)\Install\InstallWizard.aspx.designer.cs;" />
+    <InstallExclude Include="$(WebsitePath)\bin\**\*.*" Exclude="$(WebsitePath)\bin\DotNetNuke.Website.dll.config" />
   </ItemGroup>
 
   <ItemGroup>
@@ -51,11 +53,13 @@
     <UpgradeExclude Include="$(WebsitePath)\bin\Telerik.Web.UI.dll" />
     <UpgradeExclude Include="$(WebsitePath)\bin\Telerik.Web.UI.Skins.dll" />
     <UpgradeExclude Include="$(WebsitePath)\bin\DotNetNuke.Modules.Html.dll" />
-    <UpgradeExclude Include="$(WebsitePath)\Install\Container\*.zip" />
     <UpgradeExclude Include="$(WebsitePath)\Install\Language\*.zip" />
+    <UpgradeExclude Include="$(WebsitePath)\Install\Container\*.zip" Exclude="$(WebsitePath)\Install\Container\HCHostedTrial_Container_01.00.00_Install.zip" />
+    <UpgradeExclude Include="$(WebsitePath)\Install\Skin\*.zip" Exclude="$(WebsitePath)\Install\Skin\HCHostedTrial_Skin_01.00.00_Install.zip" />
     <UpgradeExclude Include="$(WebsitePath)\Install\Skin\*.zip" Exclude="$(WebsitePath)\Install\Skin\DarkKnight_01.00.00_Install.zip" />
     <UpgradeExclude Include="$(WebsitePath)\web.config" />
     <UpgradeExclude Include="$(WebsitePath)\favicon.ico" />
+    <UpgradeExclude Include="$(WebsitePath)\*.user"/>
     <UpgradeExclude Include="$(WebsitePath)\bin\dnnWerk.RadEditorProvider.dll"/>
     <UpgradeExclude Include="$(WebsitePath)\Config\DotNetNuke.config" />
     <UpgradeExclude Include="@(InstallExclude)" />
