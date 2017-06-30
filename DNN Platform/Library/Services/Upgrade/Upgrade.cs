@@ -322,12 +322,12 @@ namespace DotNetNuke.Services.Upgrade
                                   {
                                       Description = description,
                                       FriendlyName = desktopModuleName,
-                                      Name = string.Concat("Hotcakes.", desktopModuleName),
+                                      Name = string.Concat("DotNetNuke.", desktopModuleName),
                                       PackageType = "Module",
-                                      Owner = "HCC",
-                                      Organization = "Hotcakes Commerce, LLC",
-                                      Url = "https://hotcakes.org",
-                                      Email = "support@hotcakescommerce.com"
+                                      Owner = "DNN",
+                                      Organization = "DNN Corp.",
+                                      Url = "http://www.dnnsoftware.com",
+                                      Email = "support@dnnsoftware.com"
                                   };
                 if (desktopModuleName == "Extensions" || desktopModuleName == "Skin Designer")
                 {
@@ -1608,14 +1608,14 @@ namespace DotNetNuke.Services.Upgrade
                               {
                                   Name = "DefaultAuthentication",
                                   FriendlyName = "Default Authentication",
-                                  Description = "The Default UserName/Password Authentication System for Hotcakes Commerce.",
+                                  Description = "The Default UserName/Password Authentication System for DotNetNuke.",
                                   PackageType = "Auth_System",
                                   Version = new Version(1, 0, 0),
-                                  Owner = "HCC",
+                                  Owner = "DNN",
                                   License = Localization.Localization.GetString("License", Localization.Localization.GlobalResourceFile),
-                                  Organization = "Hotcakes Commerce, LLC",
-                                  Url = "https://hotcakes.org",
-                                  Email = "support@hotcakescommerce.com",
+                                  Organization = "DNN Corp.",
+                                  Url = "http://www.dnnsoftware.com",
+                                  Email = "support@dnnsoftware.com",
                                   ReleaseNotes = "There are no release notes for this version.",
                                   IsSystemPackage = true
                               };

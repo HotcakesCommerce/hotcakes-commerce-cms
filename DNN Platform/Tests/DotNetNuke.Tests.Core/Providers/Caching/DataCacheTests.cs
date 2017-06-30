@@ -405,7 +405,7 @@ namespace DotNetNuke.Tests.Core.Providers.Caching
 
         private string GetDnnCacheKey(string cacheKey)
         {
-            return String.Format("HCC_{0}", cacheKey);
+            return String.Format("DNN_{0}", cacheKey);
         }
 
         private void ItemRemovedCallback(string key, object value, CacheItemRemovedReason removedReason)

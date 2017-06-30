@@ -11,7 +11,7 @@
     <lastname>Account</lastname>
     <username>host</username>
     <password>H0tcakes</password>
-    <email>me@example.com</email>
+    <email>you@example.com</email>
     <locale>en-US</locale>
     <updatepassword>false</updatepassword>
   </superuser>

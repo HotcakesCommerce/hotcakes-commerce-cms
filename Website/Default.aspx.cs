@@ -73,13 +73,6 @@ using Globals = DotNetNuke.Common.Globals;
 
 #endregion
 
-/* 
- * TODO:
- * Remove remaining newsletter references in localization
- * Remove remaining newsletter references in database
- * Replace update service URL in AppSettings (web/release/develpment configs)
- */
-
 namespace DotNetNuke.Framework
 {
     using Web.Client;

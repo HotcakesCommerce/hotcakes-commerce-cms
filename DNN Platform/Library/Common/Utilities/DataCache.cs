@@ -382,7 +382,7 @@ namespace DotNetNuke.Common.Utilities
 
         public static void ClearCache()
         {
-            CachingProvider.Instance().Clear("Prefix", "HCC_");
+            CachingProvider.Instance().Clear("Prefix", "DNN_");
             using (ISharedCollectionLock writeLock = dictionaryCache.GetWriteLock())
             {
                 dictionaryCache.Clear();
