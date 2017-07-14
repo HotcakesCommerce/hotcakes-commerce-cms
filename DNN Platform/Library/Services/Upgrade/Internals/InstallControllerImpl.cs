@@ -494,10 +494,13 @@ namespace DotNetNuke.Services.Upgrade.Internals
                     {
                         case 8:
                             //sql 2000
+                            isValidVersion = false;
                         case 9:
                             //sql 2005
+                            isValidVersion = false;
                         case 10:
                             //sql 2008
+                            isValidVersion = false;
                         case 11:
                             //sql 2012
                             isValidVersion = true;
