@@ -57,6 +57,7 @@
     <Copy SourceFiles="..\Components\Lucene.Net.Contrib\bin\Lucene.Net.Contrib.Analyzers.dll" DestinationFolder="$(WebsiteBinPath)" />
     <Copy SourceFiles="..\Controls\DotNetNuke.WebControls\bin\DotNetNuke.WebControls.dll" DestinationFolder="$(WebsiteBinPath)" />
     <Copy SourceFiles="..\Controls\DotNetNuke.WebUtility\bin\DotNetNuke.WebUtility.dll" DestinationFolder="$(WebsiteBinPath)" />
+    <Copy SourceFiles="..\..\HCC Library\HCC.Application\bin\Release\HCC.Application.dll" DestinationFolder="$(WebsiteBinPath)" />
 
     <Copy SourceFiles="@(Database)" DestinationFolder="$(WebsiteAppDataPath)" Condition="'@(WebsiteDatabase)' == ''" />
     <Copy SourceFiles="@(RadSpell)" DestinationFolder="$(WebsiteRadSpellPath)" Condition="'@(WebsiteRadSpell)' == ''" />

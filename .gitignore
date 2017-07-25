@@ -84,6 +84,8 @@ UpgradeLog*.XML
 
 HCC_*.zip
 
+HCC [Ll]ibrary/HCC.Application/[Bb]in/*
+
 !HCC [Pp]latform/[Cc]omponents
 !HCC [Pp]latform/[Cc]ontrols
 HCC [Pp]latform/[Cc]omponents/[Cc]lient[Dd]ependency/[Ss]ource/[Bb]in

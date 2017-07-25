@@ -86,6 +86,12 @@ GO
 DELETE FROM {databaseOwner}[{objectQualifier}HostSettings] WHERE SettingName = 'InstallerFilesRemoved'
 GO
 
+UPDATE {databaseOwner}{objectQualifier}HostSettings
+	SET SettingValue='DesktopModules/Hotcakes/ControlPanel/ControlBar.ascx'
+	WHERE SettingName='ControlPanel'
+GO
+
+
 /************************************************************/
 /*****              SqlDataProvider                     *****/
 /************************************************************/
