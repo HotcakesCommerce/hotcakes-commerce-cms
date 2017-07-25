@@ -69,7 +69,7 @@ namespace DotNetNuke.UI.Skins.Controls
             string url = "https://hotcakes.org/Community?utm_source=hotcakes-install&utm_medium=web-link&utm_content=gravity-skin-link&utm_campaign=hotcakes-install";
             string utmTerm = "&utm_term=ecommerce-cms-by-hotcakes";
             string hostName = this.Request.Url.Host.ToLower().Replace("www.", string.Empty);
-            int charPos = 0; string linkText= "E-Commerce CMS by Hotcakes Commerce";
+            int charPos = 0; string linkText= "Open Source E-Commerce CMS by Hotcakes Commerce";
             if (hostName.Length > 0)
             {
                 //convert first letter of hostname to int pos in alphabet
@@ -78,7 +78,7 @@ namespace DotNetNuke.UI.Skins.Controls
             //vary link by first letter of host name
             if (charPos <= 5)
             {
-                linkText = "Open Source ASP.NET E-Commerce CMS by Hotcakes Commerce"; 
+                linkText = "Open Source E-Commerce CMS by Hotcakes Commerce"; 
                 utmTerm = "&utm_term=open+source+asp.net+by+hotcakes+commerce";
             }
             if (charPos > 5 && charPos <= 10)

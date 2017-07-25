@@ -183,7 +183,7 @@ namespace DotNetNuke.Tests.Core.Entities.Modules.Settings
             //Arrange
             var moduleInfo = GetModuleInfo;
 
-            MockCache.Setup(c => c.GetItem("HCC_" + CacheKey(moduleInfo))).Returns(new ModulesSettings());
+            MockCache.Setup(c => c.GetItem("DNN_" + CacheKey(moduleInfo))).Returns(new ModulesSettings());
             var settingsRepository = new ModulesSettingsRepository();
 
             //Act

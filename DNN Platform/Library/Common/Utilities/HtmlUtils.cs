@@ -631,7 +631,7 @@ namespace DotNetNuke.Common.Utilities
                     response.Write("<h1>Upgrading Hotcakes Commerce</h1>");
                     break;
                 case "addPortal":
-                    response.Write("<h1>Adding New Site</h1>");
+                    response.Write("<h1>Adding New Store</h1>");
                     break;
                 case "installResources":
                     response.Write("<h1>Installing Resources</h1>");

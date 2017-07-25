@@ -31,7 +31,7 @@ namespace DotNetNuke.Tests.Integration.Framework.Helpers
         private const string DefaultWebsiteName = "http://TestSiteCE.lvh.me";
         private const string DefaultHostName = "host";
         private const string DefaultHostPwd = "H0tcakes";
-        private const string DefaultLoginCookie = ".HOTCAKESCOMMERCE";
+        private const string DefaultLoginCookie = ".DOTNETNUKE";
 
         private static string _siteUrl;
         private static string _hostUserName;

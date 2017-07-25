@@ -2149,7 +2149,7 @@ namespace DotNetNuke.Services.Localization
         public static NameValueCollection GetTimeZones(string language)
         {
             language = language.ToLower();
-            string cacheKey = "hotcakes-" + language + "-timezones";
+            string cacheKey = "dotnetnuke-" + language + "-timezones";
             string translationFile;
             if (language == SystemLocale.ToLower())
             {

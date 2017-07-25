@@ -44,12 +44,12 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("DotNetNuke.Tests.Data")]
-[assembly: AssemblyDescription("Open Source E-Commerce Solution")]
+[assembly: AssemblyDescription("Open Source E-Commerce CMS Solution")]
 
-[assembly: AssemblyCompany("Hotcakes Commerce, LLC")]
-[assembly: AssemblyProduct("https://hotcakes.org")]
-[assembly: AssemblyCopyright("Hotcakes Commerce is copyright 2017 by Hotcakes Commerce, LLC. All Rights Reserved.")]
-[assembly: AssemblyTrademark("Hotcakes Commerce")]
+[assembly: AssemblyCompany("DotNetNuke Corporation")]
+[assembly: AssemblyProduct("http://www.dotnetnuke.com")]
+[assembly: AssemblyCopyright("DotNetNuke is copyright 2002-2014 by DotNetNuke Corporation. All Rights Reserved.")]
+[assembly: AssemblyTrademark("DotNetNuke")]
 
 
 // Setting ComVisible to false makes the types in this assembly not visible 
