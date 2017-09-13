@@ -1,5 +1,0 @@
-﻿<configuration>
-    <nodes configfile="Web.config">
-        <node path="/configuration/updateme" name="attrib2" value="fee" action="updateattribute" collision="overwrite" />
-    </nodes>
-</configuration>
