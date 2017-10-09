@@ -23,28 +23,22 @@
     <invoiceNumber></invoiceNumber>
   </license>
   <settings>
-    <AuthenticatedCacheability>2</AuthenticatedCacheability>
-    <UnauthenticatedCacheability>2</UnauthenticatedCacheability>
+    <AuthenticatedCacheability>4</AuthenticatedCacheability>
+    <UnauthenticatedCacheability>4</UnauthenticatedCacheability>
     <AutoAccountUnlockDuration>10</AutoAccountUnlockDuration>
     <AutoAddPortalAlias>Y</AutoAddPortalAlias>
     <CheckUpgrade>Y</CheckUpgrade>
-    <ControlPanel>DesktopModules/Hotcakes/ControlPanel/ControlBar.ascx</ControlPanel>
+    <ControlPanel>Admin/ControlPanel/ControlBar.ascx</ControlPanel>
     <Copyright>Y</Copyright>
-    <CDNEnabled>Y</CDNEnabled>
-    <CrmEnableCompositeFiles>True</CrmEnableCompositeFiles>
-    <CrmMinifyCss>False</CrmMinifyCss>
-    <CrmMinifyJs>False</CrmMinifyJs>
     <DemoPeriod></DemoPeriod>
     <DemoSignup>N</DemoSignup>
     <DisplayBetaNotice>Y</DisplayBetaNotice>
     <EnableFileAutoSync>Y</EnableFileAutoSync>
-    <EnableGettingStartedPage>False</EnableGettingStartedPage>
     <EnableContentLocalization>N</EnableContentLocalization>
-    <EnableMsAjaxCDN>Y</EnableMsAjaxCDN>
-    <EnableModuleOnLineHelp>N</EnableModuleOnLineHelp>
+    <EnableModuleOnLineHelp>Y</EnableModuleOnLineHelp>
     <EnableRequestFilters>N</EnableRequestFilters>
     <EncryptionKey Secure="True"></EncryptionKey>
-    <EventLogBuffer>Y</EventLogBuffer>
+    <EventLogBuffer>N</EventLogBuffer>
     <FileExtensions>swf,jpg,jpeg,jpe,gif,bmp,png,svg,ttf,eot,woff,doc,docx,xls,xlsx,ppt,pptx,pdf,txt,xml,xsl,xsd,css,zip,rar,template,htmtemplate,ico,avi,mpg,mpeg,mp3,wmv,mov,wav</FileExtensions>
     <HelpURL>https://hotcakes.org/Community</HelpURL>
     <HostCurrency>USD</HostCurrency>
@@ -60,7 +54,7 @@
     <PageQuota></PageQuota>
     <PageStatePersister>P</PageStatePersister>
     <PaymentProcessor>PayPal</PaymentProcessor>
-    <PerformanceSetting>6</PerformanceSetting>
+    <PerformanceSetting>3</PerformanceSetting>
     <ProcessorPassword Secure="True"></ProcessorPassword>
     <ProcessorUserId Secure="True"></ProcessorUserId>
     <ProxyPassword Secure="True"></ProxyPassword>
@@ -68,9 +62,6 @@
     <ProxyServer></ProxyServer>
     <ProxyUsername Secure="True"></ProxyUsername>
     <SchedulerMode>1</SchedulerMode>
-    <SiteLogBuffer>1</SiteLogBuffer>
-    <SiteLogHistory>0</SiteLogHistory>
-    <SiteLogStorage>D</SiteLogStorage>
     <SkinUpload>G</SkinUpload>
     <SMTPAuthentication></SMTPAuthentication>
     <SMTPEnableSSL>N</SMTPEnableSSL>
