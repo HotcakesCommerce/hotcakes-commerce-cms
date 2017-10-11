@@ -28,7 +28,6 @@
     <AutoAccountUnlockDuration>10</AutoAccountUnlockDuration>
     <AutoAddPortalAlias>Y</AutoAddPortalAlias>
     <CheckUpgrade>Y</CheckUpgrade>
-    <ControlPanel>Admin/ControlPanel/ControlBar.ascx</ControlPanel>
     <Copyright>Y</Copyright>
     <DemoPeriod></DemoPeriod>
     <DemoSignup>N</DemoSignup>
